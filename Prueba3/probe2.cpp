@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+	//cambio1
     /*
     Objetivo: capturar del usuario un numero entero y mostrar
     descendentemente cada numero hasta 0 (inclusive).
