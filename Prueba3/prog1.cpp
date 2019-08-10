@@ -6,7 +6,7 @@ int main () {
     //mateo
     //sebastian bueno
     //brayan torres -falta 2° punto
-    //Estefania
+    //Estefania, otro cambio
     ifstream rfile;
     char linea[50] = "";
 
