@@ -11,6 +11,7 @@ int main () {
     //Marlon gamba, 2°
     //Alejandra
     //Hernan Gomez
+    //Miguel Urdaneta
     ifstream rfile;
     char linea[50] = "";
 
