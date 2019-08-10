@@ -4,6 +4,7 @@ using namespace std;
 
 int main () {
     //mateo
+    //sebastian bueno
     ifstream rfile;
     char linea[50] = "";
 
