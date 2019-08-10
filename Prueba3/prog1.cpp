@@ -5,6 +5,7 @@ using namespace std;
 int main () {
     //mateo
     //sebastian bueno
+    //brayan torres
     ifstream rfile;
     char linea[50] = "";
 
