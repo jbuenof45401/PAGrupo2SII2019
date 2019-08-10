@@ -8,7 +8,7 @@ int main () {
     //brayan torres -falta 2° punto
     //Estefania, otro cambio 2°
     //Marlon Suarez -falta 2° punto
-    //Marlon gamba
+    //Marlon gamba, 2°
     //Alejandra
     //Hernan Gomez
     ifstream rfile;
