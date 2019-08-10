@@ -10,6 +10,7 @@ int main () {
     //Marlon Suarez -falta 2° punto
     //Marlon gamba
     //Alejandra
+    //Hernan Gomez
     ifstream rfile;
     char linea[50] = "";
 
