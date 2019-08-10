@@ -6,7 +6,7 @@ int main () {
     //mateo
     //sebastian bueno
     //brayan torres -falta 2° punto
-    //Estefania, otro cambio
+    //Estefania, otro cambio 2°
     //Marlon Suarez -falta 2° punto
     //Marlon gamba
     ifstream rfile;
