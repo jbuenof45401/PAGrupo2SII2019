@@ -7,7 +7,7 @@ int main () {
     //sebastian bueno
     //brayan torres -falta 2° punto
     //Estefania, otro cambio 2°
-    //Marlon Suarez -falta 3° punto
+    //Marlon Suarez -falta 3°punto
     //Marlon gamba, 2°
     //Alejandra
     //Hernan Gomez
