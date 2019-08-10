@@ -7,6 +7,7 @@ int main () {
     //sebastian bueno
     //brayan torres -falta 2° punto
     //Estefania, otro cambio
+    //Marlon Suarez
     ifstream rfile;
     char linea[50] = "";
 
