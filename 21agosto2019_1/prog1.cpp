@@ -1,18 +1,16 @@
 #include <iostream>
 using namespace std;
 
+void f1(int *p1) {
+    *(p1 + 1) = 50;
+    cout<<p1[1]<<endl; //notacion arreglo
+    cout<<*(p1 + 1)<<endl; //notaion de apuntador
+}
+
 int main() {
-    int a = 0;
-    int *p1 = NULL;
-    int **p2 = NULL;
+    int arr1[3] = {10,20,30};
 
-    a = 20;
-    p1 = &a;
-    p2 = &p1;
-
-    cout<<a<<endl;
-    **p2 = 60;
-    cout<<a<<endl;
+    f1(arr1);
 
     return 0;
 }
