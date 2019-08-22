@@ -1,15 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void muestra_mensaje() {
-    cout<<"hola!"<<endl;
+int muestra_mensaje(int a) {
+    return (a + 1);
 }
 
 int main() {
-    void(*p)() = NULL; //Declarar el apuntador, de tipo apuntador a funcion
+    int(*p)(int) = NULL; //Declarar el apuntador, de tipo apuntador a funcion
     p = &muestra_mensaje; //Asignar la direccion de la funcion al apuntador
+    int b = 0;
 
-    (*p)(); //Invocar la funcion, por medio del apuntador
+    b = (*p)(50); //Invocar la funcion, por medio del apuntador
+    cout<<b<<endl;
 
     return 0;
 }
