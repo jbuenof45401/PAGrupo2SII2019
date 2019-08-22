@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void f1(int *p1) {
-    *(p1 + 1) = 50;
-    cout<<p1[1]<<endl; //notacion arreglo
-    cout<<*(p1 + 1)<<endl; //notaion de apuntador
+void muestra_mensaje() {
+    cout<<"hola!"<<endl;
 }
 
 int main() {
-    int arr1[3] = {10,20,30};
+    void(*p)() = NULL; //Declarar el apuntador, de tipo apuntador a funcion
+    p = &muestra_mensaje; //Asignar la direccion de la funcion al apuntador
 
-    f1(arr1);
+    (*p)(); //Invocar la funcion, por medio del apuntador
 
     return 0;
 }
