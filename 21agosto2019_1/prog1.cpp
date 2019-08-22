@@ -1,30 +1,32 @@
 #include <iostream>
 using namespace std;
 
-int sumar(int num1, int num2) {
-    return (num1 + num2);
+void copiar(int *p, int *c, int tamano) {
+    for (int i = 0; i < tamano; i++)
+    {
+        c[i] = p[i];
+    }
 }
 
-int restar(int num1, int num2) {
-    return (num1 - num2);
+void mostrar(int *p, int tamano) {
+    for (int i = 0; i < tamano; i++)
+    {
+        cout<<p[i]<<endl;
+    }
+}
+
+void f1(int *p) {
+    *(p + 1) = 50;
 }
 
 int main() {
-    int(*p[2])(int,int) = {&sumar,&restar}; //Declarar el apuntador, de tipo apuntador a funcion    
-    int r = 0;
-    int opcion = 1; //0-sumar,1-restar
+    int tamano = 3;
+    int original[tamano] = {10,20,30};
+    int aux[tamano] = {0};
 
-    //Avanced Programmer!
-    //r = (*p[opcion])(50,20); //Invocar la funcion, por medio del apuntador    
-
-    //Junior-normalito programmer
-    cout<<"Es q soy un junior!"<<endl;
-    if(opcion == 0) { //cuando vamos a sumar
-        r = sumar(50,20);
-    } else if(opcion == 1) { //cuando vamos a restar
-        r = restar(50,20);
-    }
-    cout<<r<<endl;
+    copiar(original, aux, tamano);
+    f1(aux);
+    mostrar(original, tamano);
 
     return 0;
 }
