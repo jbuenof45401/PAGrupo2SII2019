@@ -1,0 +1,9 @@
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\bin\Debug\netstandard2.0\miproyecto2.deps.json
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\bin\Debug\netstandard2.0\miproyecto2.dll
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\bin\Debug\netstandard2.0\miproyecto2.pdb
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\obj\Debug\netstandard2.0\miproyecto2.csprojAssemblyReference.cache
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\obj\Debug\netstandard2.0\miproyecto2.csproj.CoreCompileInputs.cache
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\obj\Debug\netstandard2.0\miproyecto2.AssemblyInfoInputs.cache
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\obj\Debug\netstandard2.0\miproyecto2.AssemblyInfo.cs
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\obj\Debug\netstandard2.0\miproyecto2.dll
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\13sept2019_1\miproyecto2\obj\Debug\netstandard2.0\miproyecto2.pdb
