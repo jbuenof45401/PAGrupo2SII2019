@@ -11,7 +11,7 @@
   dotnet new console -n miproyecto1
 
 4) Asociar el proyecto a la solucion
-dotnet sln 13sept2019_1.sln add miproyecto1\miproyecto1.csproj
+  dotnet sln 13sept2019_1.sln add miproyecto1\miproyecto1.csproj
 
 5) Crear el 2° proyecto
   dotnet new classlib -n miproyecto2
