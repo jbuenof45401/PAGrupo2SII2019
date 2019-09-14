@@ -1,0 +1,25 @@
+.NetCore Solucion multiproyecto y referenciar proyecto.
+
+1) Crear dir de la solucion
+  mkdir 13sept2019_1
+  
+2) Crear la solucion
+  cd 13sept2019_1
+  dotnet new sln 13sept2019_1
+
+3) Crear el 1° proyecto
+  dotnet new console -n miproyecto1
+
+4) Asociar el proyecto a la solucion
+  dotnet sln 13sept2019_1.sln add miproyecto1\miproyecto1.csproj
+
+5) Crear el 2° proyecto
+  dotnet new classlib -n miproyecto2
+  
+6) Asociar el proyecto a la solucion
+  dotnet sln 13sept2019_1.sln add miproyecto2\miproyecto2.csproj
+  
+7) Referenciar desde el 1° proyecto el 2° proyecto
+  dotnet add miproyecto1\miproyecto1.csproj reference mirpoyecto2\miproyecto2.csproj
+
+8) Listo, ahora desde proyecto1 se pueden usar(referenciar) componentes del proyecto2.
