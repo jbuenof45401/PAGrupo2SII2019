@@ -12,7 +12,12 @@ namespace _16oct2019_1
             lista.Adicionar(1);
             lista.Adicionar(7);
 
-            lista.Mostrar();
+            //lista.RemoverPrimero();
+            Nodo nodoPrimero = lista.ObteneryRemoverPrimero();
+            if(nodoPrimero!=null)
+                Console.WriteLine($"El dato del 1° nodo es: {nodoPrimero.dato}"); //5
+
+            lista.Mostrar(); //1, 7
         }
     }
 }
