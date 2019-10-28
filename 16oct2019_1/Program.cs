@@ -8,7 +8,8 @@ namespace _16oct2019_1
         public static void Main(string[] args)
         {
             //Prueba_InsertarNodoxPosicion();
-            Prueba_Cola();
+            //Prueba_Cola();
+            Prueba_Pila();
         }
 
         public static void Prueba_Lista() {
@@ -47,5 +48,20 @@ namespace _16oct2019_1
             Console.WriteLine($"y en la cola quedo:");
             cola.Mostrar();
         }
+    
+        public static void Prueba_Pila() {
+            int? dato = 0;
+            Pila pila = new Pila();
+            pila.Apilar(50);
+            pila.Apilar(30);
+            dato = pila.Desapilar();
+            Console.WriteLine($"Despilado:{dato}"); //30
+            dato = pila.Desapilar();
+            Console.WriteLine($"Despilado:{dato}"); //50
+            dato = pila.Desapilar();
+            Console.WriteLine($"Despilado:{dato}"); //50
+
+            //pila.Mostrar();
+        }    
     }
 }
