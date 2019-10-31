@@ -1,0 +1,11 @@
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\bin\Debug\netcoreapp2.2\30oct2019_1.deps.json
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\bin\Debug\netcoreapp2.2\30oct2019_1.runtimeconfig.json
+C:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\bin\Debug\netcoreapp2.2\30oct2019_1.runtimeconfig.dev.json
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\bin\Debug\netcoreapp2.2\30oct2019_1.dll
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\bin\Debug\netcoreapp2.2\30oct2019_1.pdb
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\obj\Debug\netcoreapp2.2\30oct2019_1.csprojAssemblyReference.cache
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\obj\Debug\netcoreapp2.2\30oct2019_1.csproj.CoreCompileInputs.cache
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\obj\Debug\netcoreapp2.2\30oct2019_1.AssemblyInfoInputs.cache
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\obj\Debug\netcoreapp2.2\30oct2019_1.AssemblyInfo.cs
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\obj\Debug\netcoreapp2.2\30oct2019_1.dll
+c:\Tmp\Universidad\RepositorioProyectosGit\PAGrupo2SII2019\30oct2019_1\obj\Debug\netcoreapp2.2\30oct2019_1.pdb
