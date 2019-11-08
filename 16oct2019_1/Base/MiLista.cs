@@ -15,11 +15,11 @@ namespace _16oct2019_1.Base
             tamano = 0;            
         }
 
-        public bool EstaVacia() {
+        protected bool EstaVacia() {
             return (p==null && u==null);
         }
 
-        public void Adicionar(int dato) {
+        protected void Adicionar(int dato) {
             Nodo nodo = new Nodo(dato);
             if(EstaVacia()) {
                 p = nodo;
@@ -41,8 +41,7 @@ namespace _16oct2019_1.Base
                 nodoAux = nodoAux.sgte;
             }
         }
-
-        public void RemoverPrimero() {
+        protected void RemoverPrimero() {
             Nodo nodoAux = null;
 
             if(!EstaVacia()) {
@@ -58,7 +57,7 @@ namespace _16oct2019_1.Base
             }
         }
 
-        public Nodo ObteneryRemoverPrimero() {
+        protected Nodo ObteneryRemoverPrimero() {
             Nodo nodoCopia = null;
 
             if(!EstaVacia()) {
@@ -69,8 +68,37 @@ namespace _16oct2019_1.Base
             return nodoCopia;
         }
 
-        public void InsertarNodoxPosicion(Nodo nodo, int posi) {
+        protected void InsertarNodoxPosicion(Nodo nodo, int posi) {
             //TODO: Implementar y presentar en la sesion del Viernes 25Oct6Pm
+            Nodo nodoAux = null;
+            int i = 0;
+
+            if(nodo==null)
+                throw new Exception($"el nodo no puede ser null.");
+            if((posi<0 || posi>tamano) || (EstaVacia() && posi!=0))
+                throw new Exception($"posicion:{posi} NO valida, el tamano:{tamano}.");
+
+            if(EstaVacia() && posi==0) {
+                p = nodo;
+                u = nodo;
+            } else if(!EstaVacia()) {
+                if(posi==0) { //Nuevo Primero
+                    nodo.sgte = p;
+                    p = nodo;                    
+                } else if(posi == tamano) { //Nuevo Ultimo
+                    u.sgte = nodo;
+                    u = nodo;
+                } else { //Intermedio
+                    nodoAux = p;
+                    i = 0;
+                    while(i < (posi-1)) {
+                        nodoAux.sgte = nodoAux;
+                    }                    
+                    nodo.sgte = nodoAux.sgte;
+                    nodoAux.sgte = nodo;
+                }
+            }
+            tamano += 1;
         }
     }
 }
